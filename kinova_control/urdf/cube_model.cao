@@ -1,0 +1,27 @@
+V1
+# 3D Points
+8 # Número total de vértices
+0 0 0 # Punto 0: X Y Z
+0 0 -0.08 # Punto 1: X Y Z
+0.165 0 -0.08
+0.165 0 0
+0.165 0.068 0
+0.165 0.068 -0.08
+0 0.068 -0.08
+0 0.068 0 # Punto 7
+# 3D Lines
+0 # Número de líneas independientes
+# Faces from 3D lines
+0 # Número de caras indexadas por líneas
+# Faces from 3D points
+6 # Número de caras indexadas por puntos
+4 0 1 2 3 # Cara 0: [número de puntos] [índices de los puntos...]
+4 1 6 5 2
+4 4 5 6 7
+4 0 3 4 7
+4 5 4 3 2
+4 0 7 6 1 # Cara 5
+# 3D cylinders
+0 # Número de cilindros
+# 3D circles
+0 # Número de círculos
